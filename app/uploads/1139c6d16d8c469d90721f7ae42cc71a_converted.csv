@@ -1,0 +1,11 @@
+ReportID,Airline,PassengerName,PassportNo,TransactionDate,Amount.currency,Amount,PaymentMethod,FlightNo,Departure,Destination,Notes
+001,ABC Airlines,John Doe,A12345678,2025-03-05,USD,12500,Cash,AB123,JFK,LHR,"One-way, paid in full"
+002,XYZ Airlines,Jane Smith,B98765432,2025-03-06,EUR,15000,Cash,XY456,CDG,DXB,Multi-stop payment
+003,LMN Cargo,ACME Corp.,N/A,2025-03-07,USD,20000,Cash,LM789,LAX,HKG,Large cargo shipment
+004,DEF Airlines,Michael Brown,C87654321,2025-03-08,GBP,11000,Cash,DF234,LGW,JNB,Urgent business travel
+005,GHI Airlines,Sarah Johnson,D54321678,2025-03-09,AUD,14500,Cash,GH567,SYD,LAX,Luxury travel
+006,JKL Airlines,David Wilson,E98765432,2025-03-10,CAD,12000,Cash,JK890,YYZ,MEX,First-class ticket
+007,MNO Airlines,Emma White,F65432198,2025-03-11,SGD,17000,Cash,MN012,SIN,NRT,Business class upgrade
+008,PQR Cargo,Global Logistics Ltd.,N/A,2025-03-12,USD,22000,Cash,PQ345,DFW,HND,High-value freight
+009,STU Airlines,Robert Lee,G11223344,2025-03-13,CHF,13000,Cash,ST678,ZRH,BKK,Last-minute ticket purchase
+010,VWX Airlines,Olivia Harris,H99887766,2025-03-14,JPY,1400000,Cash,VW901,NRT,LHR,Frequent traveler with large cash transactions

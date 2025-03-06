@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CTRReports>
+    <CTR>
+        <ReportID>001</ReportID>
+        <Airline>ABC Airlines</Airline>
+        <PassengerName>John Doe</PassengerName>
+        <PassportNo>A12345678</PassportNo>
+        <TransactionDate>2025-03-05</TransactionDate>
+        <Amount currency="USD">12500</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>AB123</FlightNo>
+        <Departure>JFK</Departure>
+        <Destination>LHR</Destination>
+        <Notes>One-way, paid in full</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>002</ReportID>
+        <Airline>XYZ Airlines</Airline>
+        <PassengerName>Jane Smith</PassengerName>
+        <PassportNo>B98765432</PassportNo>
+        <TransactionDate>2025-03-06</TransactionDate>
+        <Amount currency="EUR">15000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>XY456</FlightNo>
+        <Departure>CDG</Departure>
+        <Destination>DXB</Destination>
+        <Notes>Multi-stop payment</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>003</ReportID>
+        <Airline>LMN Cargo</Airline>
+        <PassengerName>ACME Corp.</PassengerName>
+        <PassportNo>N/A</PassportNo>
+        <TransactionDate>2025-03-07</TransactionDate>
+        <Amount currency="USD">20000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>LM789</FlightNo>
+        <Departure>LAX</Departure>
+        <Destination>HKG</Destination>
+        <Notes>Large cargo shipment</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>004</ReportID>
+        <Airline>DEF Airlines</Airline>
+        <PassengerName>Michael Brown</PassengerName>
+        <PassportNo>C87654321</PassportNo>
+        <TransactionDate>2025-03-08</TransactionDate>
+        <Amount currency="GBP">11000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>DF234</FlightNo>
+        <Departure>LGW</Departure>
+        <Destination>JNB</Destination>
+        <Notes>Urgent business travel</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>005</ReportID>
+        <Airline>GHI Airlines</Airline>
+        <PassengerName>Sarah Johnson</PassengerName>
+        <PassportNo>D54321678</PassportNo>
+        <TransactionDate>2025-03-09</TransactionDate>
+        <Amount currency="AUD">14500</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>GH567</FlightNo>
+        <Departure>SYD</Departure>
+        <Destination>LAX</Destination>
+        <Notes>Luxury travel</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>006</ReportID>
+        <Airline>JKL Airlines</Airline>
+        <PassengerName>David Wilson</PassengerName>
+        <PassportNo>E98765432</PassportNo>
+        <TransactionDate>2025-03-10</TransactionDate>
+        <Amount currency="CAD">12000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>JK890</FlightNo>
+        <Departure>YYZ</Departure>
+        <Destination>MEX</Destination>
+        <Notes>First-class ticket</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>007</ReportID>
+        <Airline>MNO Airlines</Airline>
+        <PassengerName>Emma White</PassengerName>
+        <PassportNo>F65432198</PassportNo>
+        <TransactionDate>2025-03-11</TransactionDate>
+        <Amount currency="SGD">17000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>MN012</FlightNo>
+        <Departure>SIN</Departure>
+        <Destination>NRT</Destination>
+        <Notes>Business class upgrade</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>008</ReportID>
+        <Airline>PQR Cargo</Airline>
+        <PassengerName>Global Logistics Ltd.</PassengerName>
+        <PassportNo>N/A</PassportNo>
+        <TransactionDate>2025-03-12</TransactionDate>
+        <Amount currency="USD">22000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>PQ345</FlightNo>
+        <Departure>DFW</Departure>
+        <Destination>HND</Destination>
+        <Notes>High-value freight</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>009</ReportID>
+        <Airline>STU Airlines</Airline>
+        <PassengerName>Robert Lee</PassengerName>
+        <PassportNo>G11223344</PassportNo>
+        <TransactionDate>2025-03-13</TransactionDate>
+        <Amount currency="CHF">13000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>ST678</FlightNo>
+        <Departure>ZRH</Departure>
+        <Destination>BKK</Destination>
+        <Notes>Last-minute ticket purchase</Notes>
+    </CTR>
+    <CTR>
+        <ReportID>010</ReportID>
+        <Airline>VWX Airlines</Airline>
+        <PassengerName>Olivia Harris</PassengerName>
+        <PassportNo>H99887766</PassportNo>
+        <TransactionDate>2025-03-14</TransactionDate>
+        <Amount currency="JPY">1400000</Amount>
+        <PaymentMethod>Cash</PaymentMethod>
+        <FlightNo>VW901</FlightNo>
+        <Departure>NRT</Departure>
+        <Destination>LHR</Destination>
+        <Notes>Frequent traveler with large cash transactions</Notes>
+    </CTR>
+</CTRReports>

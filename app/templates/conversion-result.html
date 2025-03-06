@@ -1,0 +1,114 @@
+<!-- conversion-result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion Result - Data Converter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body class="bg-gray-50 font-inter">
+    <div class="min-h-screen flex flex-col">
+        <!-- Header (same as index.html) -->
+        <header class="bg-white shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-blue-600">Data Converter</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span class="text-gray-600">Welcome, User</span>
+                    <button id="logoutBtn" class="text-red-500 hover:text-red-600">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex-grow container mx-auto px-4 py-8">
+            <div class="bg-white shadow-xl rounded-2xl p-8">
+                <div class="flex justify-between items-center mb-8">
+                    <h2 class="text-2xl font-semibold text-gray-700">Conversion Complete</h2>
+                    <a href="/dashboard" class="text-blue-600 hover:text-blue-700">
+                        <i class="fas fa-arrow-left mr-2"></i>Back to Dashboard
+                    </a>
+                </div>
+
+                <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-8">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0">
+                            <i class="fas fa-check-circle text-green-500 text-xl"></i>
+                        </div>
+                        <div class="ml-3">
+                            <h3 class="text-lg font-medium text-green-800">Conversion Successful</h3>
+                            <div class="mt-2 text-sm text-green-700">
+                                <p id="conversionDetails">Your file has been successfully converted.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- CSV Download Card -->
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-shadow">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-file-csv text-blue-500 text-3xl mr-3"></i>
+                                <div>
+                                    <h3 class="text-lg font-semibold text-gray-800">CSV File</h3>
+                                    <p class="text-sm text-gray-500">Comma Separated Values</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Perfect for spreadsheet applications and data analysis tools.
+                        </p>
+                        <button id="downloadCsv" class="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors flex items-center justify-center">
+                            <i class="fas fa-download mr-2"></i>Download CSV
+                        </button>
+                    </div>
+
+                    <!-- Excel Download Card -->
+                    <div class="border rounded-lg p-6 hover:shadow-md transition-shadow">
+                        <div class="flex items-center justify-between mb-4">
+                            <div class="flex items-center">
+                                <i class="fas fa-file-excel text-green-500 text-3xl mr-3"></i>
+                                <div>
+                                    <h3 class="text-lg font-semibold text-gray-800">Excel File</h3>
+                                    <p class="text-sm text-gray-500">Microsoft Excel Format</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-sm text-gray-600 mb-4">
+                            Native format for Microsoft Excel with formatting and formulas support.
+                        </p>
+                        <button id="downloadExcel" class="w-full bg-green-600 text-white py-2 px-4 rounded hover:bg-green-700 transition-colors flex items-center justify-center">
+                            <i class="fas fa-download mr-2"></i>Download Excel
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Preview Section -->
+                <div class="mt-8">
+                    <h3 class="text-xl font-semibold text-gray-700 mb-4">Data Preview</h3>
+                    <div id="resultPreview" class="overflow-x-auto">
+                        <!-- Preview table will be inserted here -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer (same as index.html) -->
+        <footer class="bg-white shadow-md">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 text-center">
+                <p class="text-gray-500">© 2025 Enterprise Data Converter</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="/static/js/conversion-result.js"></script>
+</body>
+</html>
